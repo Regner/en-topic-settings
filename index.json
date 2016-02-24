@@ -4,6 +4,7 @@
         "topics": [
             {
                 "name": "EVE Online MOTD",
+                "url": "https://something.com/",
                 "topic": "motd",
                 "official": true
             }
@@ -40,6 +41,17 @@
                 "name": "EVE News 24",
                 "url": "http://evenews24.com/feed/",
                 "topic": "rss-en24",
+                "official": false
+            }
+        ]
+    },
+    "test": {
+        "name": "Topic For Testing",
+        "topics": [
+            {
+                "name": "EVE Online MOTD",
+                "url": "https://test.topic",
+                "topic": "testing",
                 "official": false
             }
         ]

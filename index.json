@@ -3,7 +3,7 @@
         "name": "EVE Online MOTD",
         "topic": "motd",
         "official": true
-    }
+    },
     "rss": {
         "name": "RSS Feeds",
         "topics": [
@@ -12,26 +12,26 @@
                 "url": "http://newsfeed.eveonline.com/en-US/44/articles/page/1/20",
                 "topic": "rss-eve-news",
                 "official": true
-            }
+            },
             {
                 "name": "EVE Online Dev Blogs",
                 "url": "http://newsfeed.eveonline.com/en-US/2/articles/page/1/20",
                 "topic": "rss-eve-blogs",
                 "official": true
-            }
+            },
             {
                 "name": "EVE Online Developers Dev Blogs",
                 "url": "http://newsfeed.eveonline.com/en-US/95/articles",
                 "topic": "rss-eve-dev-blogs",
                 "official": true
-            }
+            },
             {
                 "name": "Crossing Zebras",
                 "url": "http://crossingzebras.com/feed/",
                 "topic": "rss-cz",
                 "official": false
             },
-            
+            {
                 "name": "EVE News 24",
                 "url": "http://evenews24.com/feed/",
                 "topic": "rss-en24",

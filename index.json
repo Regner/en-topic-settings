@@ -1,8 +1,13 @@
 {
     "motd": {
-        "name": "EVE Online MOTD",
-        "topic": "motd",
-        "official": true
+        "name": "MOTD Updates",
+        "topics": [
+            {
+                "name": "EVE Online MOTD",
+                "topic": "motd",
+                "official": true
+            }
+        ]
     },
     "rss": {
         "name": "RSS Feeds",

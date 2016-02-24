@@ -42,6 +42,18 @@
                 "url": "http://evenews24.com/feed/",
                 "topic": "rss-en24",
                 "official": false
+            },
+            {
+                "name": "EVE NT",
+                "url": "http://www.eve-nt.uk/feed/",
+                "topic": "rss-event",
+                "official": false
+            },
+            {
+                "name": "EVE Podcasts",
+                "url": "http://evepodcasts.com/feed/",
+                "topic": "rss-evepodcasts",
+                "official": false
             }
         ]
     },

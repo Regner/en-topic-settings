@@ -46,10 +46,10 @@
         ]
     },
     "test": {
-        "name": "Topic For Testing",
+        "name": "Topics For Testing",
         "topics": [
             {
-                "name": "EVE Online MOTD",
+                "name": "General Testing",
                 "url": "https://test.topic",
                 "topic": "testing",
                 "official": false

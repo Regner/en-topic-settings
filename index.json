@@ -21,6 +21,13 @@
                 "official": true
             },
             {
+                "name": "EVE Online World News",
+                "url": "https://community.eveonline.com/news/news-channels/world-news/",
+                "feed": "http://newsfeed.eveonline.com/en-US/42/articles/page/1/20",
+                "topic": "rss-eve-world-news",
+                "official": true
+            },
+            {
                 "name": "EVE Online Dev Blogs",
                 "url": "https://community.eveonline.com/news/dev-blogs/",
                 "feed": "http://newsfeed.eveonline.com/en-US/2/articles/page/1/20",

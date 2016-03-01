@@ -4,8 +4,8 @@
         "topics": [
             {
                 "name": "EVE Online MOTD",
-                "url": "https://something.com/",
-                "topic": "motd",
+                "url": "http://api.ccpgames.com/v1/feed/motd/eveonline",
+                "topic": "motd-eve",
                 "official": true
             }
         ]
@@ -76,8 +76,32 @@
         "topics": [
             {
                 "name": "General Testing",
-                "url": "https://test.topic",
                 "topic": "testing",
+                "official": false
+            }
+        ]
+    },
+    "zkillboard": {
+        "name": "zKillboard",
+        "topics": [
+            {
+                "name": "Kills and Losses",
+                "topic": "zkb-<int>",
+                "official": false
+            },
+            {
+                "name": "Kills Only",
+                "topic": "zkb-<int>-kills",
+                "official": false
+            },
+            {
+                "name": "Losses Only",
+                "topic": "zkb-<int>-losses",
+                "official": false
+            },
+            {
+                "name": "Minimum Value",
+                "topic": "zkb-value-<int>",
                 "official": false
             }
         ]

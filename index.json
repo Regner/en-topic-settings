@@ -85,24 +85,50 @@
         "name": "zKillboard",
         "topics": [
             {
-                "name": "Kills and Losses",
-                "topic": "zkb-<int>",
-                "official": false
-            },
-            {
                 "name": "Kills Only",
-                "topic": "zkb-<int>-kills",
-                "official": false
+                "topic": "zkb-kills-<int>",
+                "official": false,
+                "check": "equals",
+                "path": ["package", "killmail", "attackers"],
+                "keys": [
+                    ["faction", "id" ],
+                    ["corporation", "id"],
+                    ["character", "id"],
+                    ["alliance", "id"]
+                ]
             },
             {
                 "name": "Losses Only",
-                "topic": "zkb-<int>-losses",
-                "official": false
+                "topic": "zkb-losses-<int>",
+                "official": false,
+                "check": "equals",
+                "path": ["package", "killmail", "victim"],
+                "keys": [
+                    ["faction", "id" ],
+                    ["corporation", "id"],
+                    ["character", "id"],
+                    ["alliance", "id"]
+                ]
             },
             {
-                "name": "Minimum Value",
+                "name": "Solar System",
+                "topic": "zkb-system-<int>",
+                "official": false,
+                "check": "equals",
+                "path": ["package", "killmail"],
+                "keys": [
+                    ["solarSystem", "id"]
+                ]
+            },
+            {
+                "name": "Value",
                 "topic": "zkb-value-<int>",
-                "official": false
+                "official": false,
+                "check": "greaterthan",
+                "path": ["package", "zkb"],
+                "keys": [
+                    ["totalValue"]
+                ]
             }
         ]
     }

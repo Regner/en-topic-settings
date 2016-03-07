@@ -88,7 +88,6 @@
                 "name": "Kills Only",
                 "topic": "zkb-kills-<int>",
                 "official": false,
-                "check": "equals",
                 "path": ["package", "killmail", "attackers"],
                 "keys": [
                     ["faction", "id" ],
@@ -101,7 +100,6 @@
                 "name": "Losses Only",
                 "topic": "zkb-losses-<int>",
                 "official": false,
-                "check": "equals",
                 "path": ["package", "killmail", "victim"],
                 "keys": [
                     ["faction", "id" ],
@@ -114,20 +112,9 @@
                 "name": "Solar System",
                 "topic": "zkb-system-<int>",
                 "official": false,
-                "check": "equals",
                 "path": ["package", "killmail"],
                 "keys": [
                     ["solarSystem", "id"]
-                ]
-            },
-            {
-                "name": "Value",
-                "topic": "zkb-value-<int>",
-                "official": false,
-                "check": "greaterthan",
-                "path": ["package", "zkb"],
-                "keys": [
-                    ["totalValue"]
                 ]
             }
         ]

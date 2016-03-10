@@ -93,7 +93,8 @@
                     ["faction", "id" ],
                     ["corporation", "id"],
                     ["character", "id"],
-                    ["alliance", "id"]
+                    ["alliance", "id"],
+                    ["shipType", "id"]
                 ]
             },
             {
@@ -105,7 +106,8 @@
                     ["faction", "id" ],
                     ["corporation", "id"],
                     ["character", "id"],
-                    ["alliance", "id"]
+                    ["alliance", "id"],
+                    ["shipType", "id"]
                 ]
             },
             {
